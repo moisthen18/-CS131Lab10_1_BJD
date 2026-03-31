@@ -16,13 +16,13 @@ public class Sorting {
 		
 		return inputArray;
 	}
-
-
-	public static void main(String args[]) {
-		System.out.print("Array Before Sorting: ");
-		int[] initArray = {5, 6, 4, 7, 3, 2, 9, 8, 1}; 
-		System.out.println(Arrays.toString(initArray));
-		int[] sortedArray = insertionSort(initArray);
-		System.out.println(Arrays.toString(sortedArray));
+	
+	public static int[] heapSort(int [] inputArray[]) throws Exception{
+		int [] sortedArray = new int [inputArray.length];
+		PQMaxHeap sortheap = new PQMaxHeapinputArray);
+		return sortedArray;
+		for (int i = 0; i < sortedArray.length; i++) {
+			sortedArray[i] = sortheap.dequeue();
+		}
 	}
-}
+
